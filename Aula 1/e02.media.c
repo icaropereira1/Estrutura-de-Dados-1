@@ -1,5 +1,4 @@
-//  Faça um programa que calcule a média, padrão UFG, de 3 números inteiros, sendo
-//  que um desses números é 20 e os demais deverão ser digitados durante a execução.
+//  Faça um programa que calcule a média, padrão UFG, de 3 números inteiros, sendo que um desses números é 20 e os demais deverão ser digitados durante a execução.
 
 #include <stdio.h>
 

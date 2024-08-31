@@ -1,5 +1,4 @@
-//  Leia o valor do raio de um círculo e calcule e imprima a área dele.
-//  A área do círculo é PI*R^2, considere  PI=3.141592
+//  Leia o valor do raio de um círculo e calcule e imprima a área dele. A área do círculo é PI*R^2, considere  PI=3.141592
 
 #include <stdio.h>
 
