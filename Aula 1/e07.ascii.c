@@ -2,6 +2,10 @@
 
 #include <stdio.h>
 
-int main(){
-    
+int main() {
+    char caracteres[4] = {'W', 'A', 'S', 'D'};
+
+    for(int i = 0; i < 4; i++) {
+        printf("O código ASCII para '%c' é %d\n", caracteres[i], caracteres[i]);
+    }
 }
