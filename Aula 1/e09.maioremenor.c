@@ -3,12 +3,21 @@
 #include <stdio.h>
 
 int main(){
-    int number, numbers[200], i = 0;
-        do{
-        printf("Digite um número:\n");
+    int i = 0, number, numbers[1000];
+
+   do{
+        printf("Digite um número inteiro (caso o número seja negativo, iremos mostrar todos os números digitados)\n");
         scanf("%i", &number);
         
-        }while(number < 0);
-
-        
+        if(number >= 0){
+            numbers[i] = number;
+            i++;
+        }
+    
+    }while(number >= 0);
+    
+    printf("Os números digitados foram:\n");
+    for(int n = 0; n < i; n++){
+        printf("%i\n",numbers[n]);
+    }
 }

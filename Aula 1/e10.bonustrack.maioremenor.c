@@ -3,5 +3,33 @@
 #include <stdio.h>
 
 int main(){
-    for(int i; )
+    int maior, menor, numero;
+    
+    printf("\nDigite um número inteiro, se ele for negativo será mostrado o maior e menor número digitado: \n");
+    scanf ("%i", &numero);
+
+    if(numero < 0){
+        printf("Não foi digitado nenhum número positivo.\n");
+        return 0;
+    }
+    
+    maior = numero;
+    menor = numero;
+    
+    
+
+    do{
+        printf("Digite um número: \n");
+        scanf ("%i", &numero);
+
+        if(numero > maior){
+            maior = numero;
+        }
+        else if(menor > numero){
+            menor = numero;
+        }
+
+    }while(numero>=0);
+
+    printf("O menor e maior valor lido são, respectivamente, %i e %i.", menor, maior);
 }
